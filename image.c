@@ -48,6 +48,7 @@ void printImage(const Image *image) {
         printf("\n");
     }
 }
+
 void customDisplay(const Image *image) {
     printf("Affichage personnalisé de l'image :\n");
     for (int j = 0; j < image->height; j++) {
